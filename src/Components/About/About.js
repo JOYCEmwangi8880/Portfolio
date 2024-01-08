@@ -33,7 +33,7 @@ const About = () => {
                     <br/>
                     <br/>
                     After my graduation i was finding something to start my carrer in tech field and gratefully i came into know about <span style={{color:"white"}}>Web Development</span> and started my journey from there.
-                    Fast-forward to today, and I’ve worked in many applications with lot of tech stacks.My main focus these days is building accessible, inclusive products.
+                    Fast-forward to today, and I’ve worked in many applications with lot of tech stacks.My main focus these days is building accessible, inclusive applications.
                 </Typography>
             </Zoom>
         </Box>

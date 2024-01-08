@@ -27,20 +27,21 @@ const Contact = () => {
   return (
     <Zoom className='contactDiv' in={checked1}>
 
-   <Box sx={{ width: "80%", margin: "10% auto", padding: "0% 10px" }}>
+    <Box sx={{width:"80%",margin:"10% auto",padding:"0% 10px"}}>
+        
+        <Typography className='contactheading' sx={{textAlign:"center",fontWeight:"600",color:"rgb(204,214,246)"}} variant='h2'>Get In Touch</Typography>
+        <Typography className='contactSubHeading' sx={{textAlign:"center",width:"70%",margin:"auto",color:"rgb(124,134,164)"}} variant='h5'>I’m currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</Typography>
+        
+        <Button className='contactButton' onClick={mailTo} variant="outlined" sx={{border: "1px solid #64ffda",color: "white",fontSize: "0.9rem",margin:"auto",padding:"1% 3%",display:"block",marginTop:"2%"}}>Say Hello</Button>
+        <Box sx={{marginTop:"2%",display:"flex",justifyContent:"center",alignContent:"center",alignItems:"center",gap:"15px"}}>
+        <a className='socialLogo' target="_blank" href={details.githubLink} style={{textDecoration:"none",color:"white",fontSize:"1.7rem"}}><i className="fa fa-github"></i></a>
+        <a className='socialLogo' target="_blank" href={details.linkedInLink} style={{textDecoration:"none",color:"white",fontSize:"1.7rem"}}><i className="fa fa-linkedin"></i></a>
+        {/* <a className='socialLogo' target="_blank" href={details.instagramLink} style={{textDecoration:"none",color:"white",fontSize:"1.7rem"}}><i className="fa fa-instagram"></i></a> */}
+        <a className='socialLogo' target="_blank" href={details.mailLink} style={{textDecoration:"none",color:"white",fontSize:"1.5rem"}}><i className="fa fa-envelope"></i></a>
 
-  <Typography className='contactheading' sx={{ textAlign: "center", fontWeight: "600", color: "rgb(204,214,246)" }} variant='h2'>Get In Touch</Typography>
-  <Typography className='contactSubHeading' sx={{ textAlign: "center", width: "70%", margin: "auto", color: "rgb(124,134,164)" }} variant='h5'>I’m currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</Typography>
-
-  <Button className='contactButton' onClick={mailTo} variant="outlined" sx={{ border: "1px solid #64ffda", color: "white", fontSize: "0.9rem", margin: "auto", padding: "1% 3%", display: "block", marginTop: "2%" }}>Say Hello</Button>
-  <Box sx={{ marginTop: "2%", display: "flex", justifyContent: "center", alignContent: "center", alignItems: "center", gap: "15px" }}>
-    <a className='socialLogo' target={"_blank"} href={details.githubLink} style={{ textDecoration: "none", color: "white", fontSize: "1.7rem" }}><i className="fa-brands fa-github"></i></a>
-    <a className='socialLogo' target={"_blank"} href={details.linkedInLink} style={{ textDecoration: "none", color: "white", fontSize: "1.7rem" }}><i className="fa-brands fa-linkedin"></i></a>
-     <a className='socialLogo' target={"_blank"} href={details.instagramLink} style={{textDecoration:"none",color:"white",fontSize:"1.7rem"}}><i className="fa-brands fa-instagram"></i></a> 
-    <a className='socialLogo' target={"_blank"} href={details.mailLink} style={{ textDecoration: "none", color: "white", fontSize: "1.5rem" }}><i className="fa-regular fa-envelope"></i></a>
-  </Box>
-
-</Box>
+        </Box>
+        
+    </Box>
     </Zoom>
   )
 }

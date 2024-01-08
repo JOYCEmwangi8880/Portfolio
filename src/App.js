@@ -6,10 +6,11 @@ import Sidebar from './Components/MiniComponent/Sidebar';
 import About from './Components/About/About';
 import { useRef } from 'react';
 import Skill from './Components/Skill/Skill';
-// import Work from './Components/Work/Work';
+ import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
 import GithubCalender from './Components/GithubCalender/GithubCalender';
 import Cursor from './Components/MiniComponent/Cursor';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <Sidebar/>
         <About  />
         <Skill/>
-        {/* <Work/> */}
+         <Work/> 
         <GithubCalender/>
         <Contact/>
     </div>
