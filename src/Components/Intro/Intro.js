@@ -49,7 +49,7 @@ const Intro = () => {
             <Typography id="subHeading" className='heading1' sx={{color:"rgb(136,146,176)",fontSize:"5rem"}} variant='h1'></Typography>
         </Zoom>
         <Zoom  in={checked}>
-            <Typography className='intro' sx={{color:"rgb(136,146,176)",width:"65%",marginTop:"2%",fontSize:"1.4rem"}} variant='h5'>I’m a Full Stack Web Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products.</Typography>
+            <Typography className='intro' sx={{color:"rgb(136,146,176)",width:"65%",marginTop:"2%",fontSize:"1.4rem"}} variant='h5'>I’m a Full Stack Software Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products.</Typography>
         </Zoom>
         <Scroll offset={-150} type="class" element={details.className[3]}>
             <Zoom in={checked}>

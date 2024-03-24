@@ -2,6 +2,9 @@ import React from 'react';
 import botBattlr from "./media/bot-battlr.mp4";
 import fitnessFrenzy from "./media/fitness- frenzy .mp4"
 import bankTransactions from"./media/bank-transactions.mp4"
+import electroports$pins from "./media/electroports$pins.mp4"
+import librarysystem from "./media/librarysystem.mp4"
+import pizzarestaurant from "./media/pizzarestaurant.mp4"
 
 
 
@@ -59,6 +62,10 @@ export const details={
             {
                 "name": "Flask",
                 "img": "https://img.icons8.com/ios/452/flask-filled.png"
+            },
+            {
+                "name": "Django",
+                "img": "https://img.icons8.com/ios/452/django-filled.png"
             }
             
             
@@ -85,13 +92,37 @@ export const details={
             description:" An application designed to empower individuals of all ages and fitness levels to achieve their health and wellness goals."
         }, 
         {
-            name:"Fitness-Frenzy",
+            name:"Bank of Flatiron",
             github:"https://github.com/JOYCEmwangi8880/react-codechallenge-bank-of-flatiron",
             live:"https://react-codechallenge-bank-of-flatiron.vercel.app/",
             tech:["React","Node JS","Npm","CSS"],
             img:bankTransactions,
             description:" An application that allows users to view, add, and delete transactions."
         }, 
+        {
+            name:"Elecroports $ Pins",
+            github:"https://github.com/Markswell-crypto/ElectroPorts-And-Pins-Front-End",
+            live:"https://electroportsandpins.netlify.app/",
+            tech:["React","Flask","PostgreSql","CSS", "Boostrap"],
+            img:electroports$pins,
+            description:" Electroports & Pins is an e-commerce platform that specializes in selling electronic devices, gadgets, and accessories."
+        }, 
+        {
+            name:"library system",
+            github:"https://github.com/JOYCEmwangi8880/Library-Management-Web-Application",
+            live:"https://dancing-cannoli-cf6533.netlify.app/",
+            tech:["React","Flask","PostgreSql","CSS", "Boostrap"],
+            img:librarysystem,
+            description:" This system is designed to manage books, members, and transactions within a library, it allows a librarian to track books fees and their quantity, books issued to members."
+        },
+        {
+            name:"pizza restaurant",
+            github:"https://github.com/JOYCEmwangi8880/Pizza-Restaurants",
+            live:"https://pizza-restaurants-tau.vercel.app/",
+            tech:["React","Flask","PostgreSql","CSS", "Boostrap"],
+            img:pizzarestaurant,
+            description:" Allows clients to choose their favourite pizzas from different restaurants"
+        },
 
 
     ]
