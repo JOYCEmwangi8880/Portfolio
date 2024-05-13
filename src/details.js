@@ -56,6 +56,10 @@ export const details={
 
             },
             {
+                "name": "Tailwind",
+                "img": "https://img.icons8.com/ios/452/tailwind-filled.png"
+            },
+            {
                 name:"Github",
                 img:"https://img.icons8.com/glyph-neue/512/github.png"
             },
@@ -66,7 +70,8 @@ export const details={
             {
                 "name": "Django",
                 "img": "https://img.icons8.com/ios/452/django-filled.png"
-            }
+            },
+            
             
             
             
