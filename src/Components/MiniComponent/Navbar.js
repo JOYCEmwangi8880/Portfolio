@@ -27,7 +27,7 @@ const Navbar = ({scollHandle}) => {
 
   const openResume = () => {
     window.open(
-      "https://docs.google.com/document/d/1Wm4SHGl9zgkAfG30FXQgpVHl-3nXDWukxfugi7iFYVo/edit?usp=sharing"
+      "https://docs.google.com/document/d/1-Sg-Rpf-gmadU4nXF4q2rnFIDwELKPzDsXBIZNlIgMk/edit?usp=sharing"
     );
   };
 
