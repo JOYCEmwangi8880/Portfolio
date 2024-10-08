@@ -55,10 +55,7 @@ export const details={
                 img:"https://img.icons8.com/color/512/bootstrap.png",
 
             },
-            {
-                "name": "Tailwind",
-                "img": "https://img.icons8.com/ios/452/tailwind-filled.png"
-            },
+           
             {
                 name:"Github",
                 img:"https://img.icons8.com/glyph-neue/512/github.png"
@@ -71,7 +68,20 @@ export const details={
                 "name": "Django",
                 "img": "https://img.icons8.com/ios/452/django-filled.png"
             },
-            
+            {
+                "name": "Flutter",
+                "img": "https://img.icons8.com/color/452/flutter.png"
+              },
+              {
+                "name": "Next.js",
+                "img": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
+              },
+              {
+                "name": "Tailwind CSS",
+                "img": "https://img.icons8.com/fluency/452/tailwind_css.png"
+              }
+              
+              
             
             
             
