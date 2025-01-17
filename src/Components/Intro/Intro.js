@@ -64,7 +64,7 @@ const Intro = () => {
                     fontSize: "1rem",
                     marginTop:"4%",
                     padding:"1%"
-                }}>Feel Free! to Check Out some of My Work and <br></br> if you have any questions<br></br> Don't hesitate to reach out 😀 !</Button>
+                }}>Feel Free to Check Out some of My Work and <br></br> if you have any questions<br></br> Don't hesitate to reach out 😀 </Button>
             </Zoom>
         </Scroll>
     </Box>
